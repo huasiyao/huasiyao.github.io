@@ -1,18 +1,7 @@
 # Site settings
-<<<<<<< HEAD
 title: 'Hello, 2016' # Your Title
 tagline: '自我否定，自我重建   ——华思尧的备忘录' # A brief tagline for your site
 sidebar_image: /images/cover.jpg
-=======
-title: 华思尧备忘录
-email: huasiyao@hotmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hello World,Hello 2016
-baseurl: "/clean" # the subpath of your site, e.g. /blog/
-url: "http://huasiyao.com" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  huasiyao
->>>>>>> origin/master
 
 # Build settings
 markdown: redcarpet
