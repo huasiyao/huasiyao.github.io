@@ -1,9 +1,0 @@
-# Site settings
-title: 'Hello, 2016' # Your Title
-tagline: '自我否定，自我重建   ——华思尧的备忘录' # A brief tagline for your site
-sidebar_image: /images/cover.jpg
-
-# Build settings
-markdown: redcarpet
-highlighter: pygments
-baseurl: #/strange_case # the subpath of your site, e.g. /blog/
