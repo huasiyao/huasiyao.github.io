@@ -1,16 +1,38 @@
 ---
-layout: home
+layout: default
 ---
-
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
+<header id="home-header" style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <ul class="meta">
       <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-            <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-          </a>
+        <span>
+          {{ site.tagline }}
+        </span>
       </li>
-    {% endfor %}
-  </ul>
-</div>
+      <li>
+        <span>                   
+          <i class="fa fa-wechat"></i>&nbsp;&nbsp;
+          <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;
+          <i class="fa fa-weibo"></i>
+        </span>
+      </li>
+  </div>
+      
+
+</header>
+<article>
+  <div class="container">
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+          <span class="meta">
+            {{ post.date | date_to_string }}
+          </span>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>

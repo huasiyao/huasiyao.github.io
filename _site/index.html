@@ -1,119 +1,73 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
+<head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Hello, 2016</title>
+  <meta name="viewport" content="width=device-width">
 
-  <title>Clean</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml.
-">
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/clean/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/clean/">
-  <link rel="alternate" type="application/rss+xml" title="Clean" href="http://yourdomain.com/clean/feed.xml" />
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+  
+  <!-- favicon -->
+  <link rel = "Shortcut Icon" href="/images/favicon.ico">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
 </head>
-
-
-  <body>
-
-    <div class="cover">
-      <div class="clock"></div>
-      <div class='hours'></div>
-      <div class='seconds'></div>
-      <div class='minutes'></div>
-      <div class="site-name">
-        <div class="site-name__inner">
-          <div class="name">Clean</div>
-          <div class="desc">Write an awesome description for your new site here. You can edit this line in _config.yml.
-</div>
-          <div class="btn">Blog</div>
-        </div>
-      </div>
-    </div>
-
-    <header class="site-header">
-
-      <div class="wrapper">
-
-        <nav class="site-nav">
-            
-              
-              <a class="page-link" href="/clean/about/">About</a>
-              
-            
-              
-            
-              
-            
-              
-            
-        </nav>
-      </div>
-    </header>
-    <div class="page-content">
-        <div class="home">
-  <ul class="post-list">
-    
+<body>
+  <header id="home-header" style="background-image: url(/images/cover.jpg);">
+  <div class="container">
+    <h1>Hello, 2016</h1>
+    <ul class="meta">
       <li>
-          <a class="post-link" href="/clean/jekyll/update/2015/09/27/clean-theme.html">
-            A Clean Jekyll theme
-            <div class="post-meta">Sep 27, 2015</div>
-          </a>
+        <span>
+          自我否定，自我重建 ——华思尧的备忘录
+        </span>
       </li>
-    
       <li>
-          <a class="post-link" href="/clean/jekyll/update/2015/09/26/hello.html">
-            Hello
-            <div class="post-meta">Sep 26, 2015</div>
-          </a>
+        <span>                   
+          <i class="fa fa-wechat"></i>&nbsp;&nbsp;
+          <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;
+          <i class="fa fa-weibo"></i>
+        </span>
       </li>
-    
-  </ul>
-</div>
-    </div>
+  </div>
+      
 
-<script>
-  setInterval(function() {
-    var seconds = new Date().getSeconds();
-    var sdegree = seconds * 6 + 270;
-    seconds = ("0" + seconds).slice(-2);
-    var secondSel = document.querySelector(".seconds");
+</header>
+<article>
+  <div class="container">
+    <ul class="posts">
+      
+        <li>
+          <h2><a href="/2014/12/13/wechat-block-kuaidi.html">「知乎」如何看待微信屏蔽快的打车事件？</a></h2>
+          <span class="meta">
+            13 Dec 2014
+          </span>
+          <blockquote>
+<p>这篇文章转载自<a href="http://www.zhihu.com/question/26774049/answer/35041458">我在知乎上的回答</a></p>
+</blockquote>
 
-    secondSel.style.transform = "rotate(" + sdegree + "deg) translate(160px) rotate(-" + sdegree + "deg)";
-    secondSel.innerHTML = seconds;
+        </li>
+      
+        <li>
+          <h2><a href="/jekyll/2014/01/07/welcome-to-jekyll.html">Strange Case of Dr Jekyll and Mr Hyde</a></h2>
+          <span class="meta">
+            07 Jan 2014
+          </span>
+          <p>Strange Case of Dr Jekyll and Mr Hyde is the original title of a novella written by the Scottish author <a href="">Robert Louis Stevenson</a> that was first published in 1886. The work is commonly known today as The Strange Case of Dr. Jekyll and Mr. Hyde, Dr. Jekyll and Mr. Hyde, or simply Jekyll &amp; Hyde. It is about a London lawyer named Gabriel John Utterson who investigates strange occurrences between his old friend, Dr. Henry Jekyll, and the evil Edward Hyde.</p>
 
-    var minutes = new Date().getMinutes();
-    var mdegree = minutes * 6 + 270;
-    var minutesSel = document.querySelector(".minutes");
-    minutes = ("0" + minutes).slice(-2);
+        </li>
+      
+    </ul>
+  </div>
+</article>
 
-    minutesSel.style.transform = "rotate(" + mdegree + "deg) translate(181px) rotate(-" + mdegree + "deg)";
-    minutesSel.innerHTML =  minutes;
-
-    var hours = new Date().getHours();
-    var hoursSel = document.querySelector(".hours");
-
-    if (hours > 12) {
-      hours = hours - 12;
-    }
-
-    hours = ("0" + hours).slice(-2);
-
-    hoursSel.innerHTML = hours;
-  }, 1000);
-
-  var btnSel = document.querySelector('.btn');
-  var header = document.getElementsByTagName('header')[0];
-
-  btnSel.addEventListener("click", function() {
-    header.scrollIntoView();
-  }, false);
-
-</script>
-
-  </body>
-
+</body>
 </html>
