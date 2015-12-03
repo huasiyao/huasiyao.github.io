@@ -3,7 +3,7 @@ title: 华思尧备忘录
 email: huasiyao@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hello World,Hello 2016
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/clean" # the subpath of your site, e.g. /blog/
 url: "http://huasiyao.com" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  huasiyao
