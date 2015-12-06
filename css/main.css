@@ -129,7 +129,7 @@ header .container {
 @media screen and (min-width: 961px){
   #home-header .container {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -213,7 +213,7 @@ header ul.meta {
 }
 
 #home-header ul.meta {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 header ul.meta li {
@@ -227,7 +227,7 @@ header ul.meta li span {
   margin-right: 10px;
   font-family: sans-serif;
   /*font-style: italic;*/
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 1);
 }
 
 /* Pagination */
