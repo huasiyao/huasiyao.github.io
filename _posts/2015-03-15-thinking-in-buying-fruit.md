@@ -3,7 +3,7 @@ layout: post
 title: "买水果带来的碎片思考"
 date: 2015-03-15 09:43:12
 categories: 随笔
-featured_image: /images/article_cover/cover-my
+featured_image: /images/article_cover/cover_my.jpg
 ---
 
 想吃苹果了，于是去买，发现橙子也不错，再挑挑，又想吃草莓了，可是钱不够怎么办，逛了一圈，最后决定还是买苹果，而且，好不容易买一次，精心挑选一些甜美可口的吧！

@@ -3,7 +3,7 @@ layout: post
 title: "如何有效地与开发沟通"
 date: 2015-03-13 09:42:44
 categories: 工作思考
-featured_image: /images/article_cover/cover-tech.jpg
+featured_image: /images/article_cover/cover_tech.jpg
 ---
 
 今天在群里，有个网友提出了实际工作中的遇到的困惑：

@@ -3,7 +3,7 @@ layout: post
 title: "近期的总结"
 date: 2015-05-03 09:43:36
 categories: 随笔
-featured_image: /images/article_cover/cover-book.jpg
+featured_image: /images/article_cover/cover_book.jpg
 ---
 
 
