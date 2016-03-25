@@ -5,5 +5,5 @@ sidebar_image: /images/cover.jpg
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: Rouge
 baseurl: #/strange_case # the subpath of your site, e.g. /blog/
