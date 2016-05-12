@@ -1,4 +1,4 @@
 huasiyao.com
 ============
 
-[Aggregate Thoughts](http://www.huasiyao.com)
+[Aggregate Thoughts](http://huasiyao.com)
