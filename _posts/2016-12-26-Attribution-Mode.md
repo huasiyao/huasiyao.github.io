@@ -3,7 +3,7 @@ layout: post
 title: "凯利的归因模型"
 date: 2016-12-26 09:42:44
 categories: 工作思考
-featured_image: /images/article_cover/cover_tech.jpg
+featured_image: /images/article_cover/cover_ab.jpg
 ---
 
 > *本文为凯利的归因模型的学习笔记，其中文章中关于归因模型的理论部分，来自于[MBAlib](http://wiki.mbalib.com/wiki/凯利的归因模型)*
