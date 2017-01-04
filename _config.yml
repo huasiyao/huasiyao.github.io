@@ -4,6 +4,6 @@ tagline: "自我否定，自我重建" # A brief tagline for your site
 sidebar_image: /images/cover.jpg
 
 # Build settings
-markdown: kramdown
+markdown: maruku
 highlighter: Rouge
 baseurl: #/strange_case # the subpath of your site, e.g. /blog/
