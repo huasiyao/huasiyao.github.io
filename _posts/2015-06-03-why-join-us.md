@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "“为什么加入我们”"
-date: 2015-06-03 15:31:22
-categories: 随笔
-featured_image: /images/article_cover/cover_default.jpg
+subtitle: "关于团队的一点感想，也可能是一种理想化的状态"
+active: journal
+date: 2015-06-03
+header-img: "img/postcover/human005.jpg"
+categories: Thinking
+comments: false
 ---
 
 相信大家在面试过程中经常会被问到一个问题：

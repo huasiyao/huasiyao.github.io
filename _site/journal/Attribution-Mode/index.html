@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <meta property="og:url" content="http://localhost:4000/journal/Attribution-Mode/" />
+   <link rel="canonical" href="http://localhost:4000/journal/Attribution-Mode/" />
+
+
+  <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+<link rel="icon" href="/favicon.ico?" type="image/x-icon">
+
+    <meta name="description" content="So?">
+
+    <title>凯利的归因模型 - AdrianHua</title>
+
+    <link rel="canonical" href="http://localhost:4000/journal/Attribution-Mode/">
+
+<!-- CSS -->
+	
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/galleries.css">
+     <link rel="stylesheet" href="/css/super-search.css">
+    <link rel="stylesheet" href="/css/magnificpopup.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+
+<head>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top" style="margin-right:1em; z-index: 1;">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <i class="fa fa-bars fa-lg"></i>
+            </button>
+            <a href="/" title="HOME"><img src="/logo.png" alt="logo" style="width:150px;cursor:pointer;margin-top:15px;"/></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" >   <!--style="margin-right:1em; text-shadow: -.025em -.025em 0 rgba(0, 133, 161, 0.75), .025em -.025em 0 rgba(0, 133, 161, 0.75), -.025em .025em 0 rgba(0, 133, 161, 0.75), .025em .025em 0 rgba(0, 133, 161, 0.75);"-->
+               
+          
+            
+            
+              <li class="active"><a href="http://127.0.0.1:4000/journal/">JOURNAL</a></li>
+            
+          
+        
+          
+            
+            
+              <li><a href="http://127.0.0.1:4000/about/">ABOUT</a></li>
+            
+          
+        
+                            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="viewport" content="width=device-width">
+
+<link href="/css/tags-wrap.css" rel="stylesheet" />
+
+    </head>
+    <body>
+
+
+
+
+<article>
+<!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/postcover/human006.jpg')">
+    <div class="container">
+        <div class="row">
+                            <div class="post-heading">
+                    <h1 style="text-align:center; font-weight:300;">凯利的归因模型</h1>
+
+                    <span style="text-align:center;font-weight:300;" class="meta">December 26, 2016</span>
+
+<!--去掉阅读时间
+<span class="time-tag-categ" style="font-size:.7em">
+
+
+<i class="fa fa-clock-o"></i>&nbsp;
+1 minute read
+
+去掉阅读时间  -->
+
+
+   </span>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+
+    <div class="container" style="font-weight:300;">
+        <div class="row">
+
+
+               				<blockquote>
+  <p><em>本文为凯利的归因模型的学习笔记，其中文章中关于归因模型的理论部分，来自于<a href="http://wiki.mbalib.com/wiki/凯利的归因模型">MBAlib</a></em></p>
+</blockquote>
+
+<h2 id="什么是归因">什么是归因</h2>
+
+<p>所谓<strong>归因（attribution）</strong>，顾名思义，就是<strong>将人的行为进行因果解释和推论</strong>。</p>
+
+<p>当我们在解释别人行为时，通常有两种方式，第一种是通过多次观察一个人的行为来进行归因，称之为<strong>多线性归因</strong>，另一种就是<strong>单线性归因</strong>了，依据一次观察就做出归因。</p>
+
+<h2 id="归因模型的理论基础">归因模型的理论基础</h2>
+
+<h4 id="对行为的归因总是涉及三方面的因素">对行为的归因总是涉及三方面的因素：</h4>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>（1）客观刺激物；                         ——外部归因
+
+（2）行动者本身；                         ——内部归因
+
+（3）行动者所处的关系与环境；    ——外部归因
+</code></pre>
+</div>
+
+<h4 id="对上述因素的任何一个因素的归因都取决于下列三种行为信息">对上述因素的任何一个因素的归因，都取决于下列三种行为信息：</h4>
+
+<ol>
+  <li><strong>区分性（distinctiveness）</strong>：指当被观察者面对同一个刺激或环境下时，究竟是表现同一个行为，还是仅在某一个特定情况下才表现这一行为的</li>
+</ol>
+
+<blockquote>
+  <p>例如一名今天迟到的员工，是否在经常表现出自由散漫、违反规章纪律</p>
+</blockquote>
+
+<p><strong>如果行为的区分性低（上述例子中的员工确实平时表现出自由散漫、违反规章几率），可以归因为内部，反之，可归因为外部。</strong></p>
+
+<ol>
+  <li><strong>一贯性（consistency）</strong>：指被观察者是否长期在任何情况任何时候都会产生同一行为，即他的行为是否稳定而持久</li>
+</ol>
+
+<blockquote>
+  <p>例如如果一名员工并不总是上班迟到，她有7个月从未迟到过，但是她今天迟到了，则表明这是一个特例，她的行为的一贯性较低；而如果她每周都迟到几次，则表明她的行为的一贯性较高</p>
+</blockquote>
+
+<p><strong>行为的一贯性越高，越倾向于对其作为内部归因。</strong></p>
+
+<p><strong>上述中的区分性和一贯性的不同点是，前者是将行为者放在相同环境和相同刺激下，看其行为是否有所区别，而后者将行为者放在任意环境和任意时间，看其行为是否长期稳定且持续。。</strong></p>
+
+<ol>
+  <li><strong>一致性（consistency）</strong>：指其他人面对同一个环境下，是否与被观察者做出同样的反应</li>
+</ol>
+
+<blockquote>
+  <p>例如所有走相同路线上班的员工都迟到了，则迟到行为的一致性就高，如果走相同路线的其他员工都准时到达了，只有行为者没有到达，则一致性低</p>
+</blockquote>
+
+<p><strong>一致性高，倾向于对行为进行外部归因，一致性低，应该进行内部归因。</strong></p>
+
+<h2 id="如何进行归因">如何进行归因</h2>
+
+<h4 id="通过上述的三个方面的信息可以将人的行为归因于自己本身还是外部环境那么管理者该如何通过上面三个信息对员工的行为作出评价呢">通过上述的三个方面的信息，可以将人的行为归因于自己本身，还是外部环境。那么管理者该如何通过上面三个信息对员工的行为作出评价呢？</h4>
+
+<p><strong>首先</strong>，将员工完成某项工作的水平与自身其他工作做比较，如果水平相当，则说明这名员工的该工作的<strong>区分性低</strong>；</p>
+
+<p><strong>其次</strong>，将该员工与其他员工进行比较，若在这项工作中，其他员工完成的水平与他十分不同（或高或低），则说明他的<strong>一致性低</strong>；</p>
+
+<p><strong>最后</strong>，看该员工完成这项工作的水平是否稳定，若无论何时都是稳定的，则说明<strong>一贯性高</strong>；</p>
+
+<p><strong>因此，根据这些我们可以判断出，这名员工的这项工作成果归因于内部因素，自己本身对绩效负有主要责任。</strong></p>
+
+<blockquote>
+  <p><strong>例1</strong>：一名销售人员，连着三个季度都没有完成目标<strong>（一贯性高）</strong>，和这名销售人员同一个团队的其他销售人员在第三季度都已经完成销售目标了<strong>（一致性低）</strong>，并且他在第三季度的其他工作比如收款目标也都没有完成<strong>（区分性低）</strong>，则说明这名员工第三季度的绩效低是由于自身原因造成的。</p>
+
+  <p><strong>例2</strong>：一名销售人员第一季度和第二季度销售目标已经完成，但是第三季度没有完成销售目标<strong>（一贯性低）</strong>，其他销售人员第三季度也没有完成销售目标<strong>（一致性高）</strong>，这名销售人员该季度其他工作都已经完成<strong>（区分性高）</strong>，则此时可以倾向于将这名员工第三季度未完成销售目标归因于外部因素。</p>
+</blockquote>
+
+<h2 id="进行归因时的常见错误与偏见">进行归因时的常见错误与偏见</h2>
+
+<ol>
+  <li><strong>基本归因错误（Fundamental attribution error）</strong>：我们总是倾向于低估外部因素的影响而高估内部或个人因素的影响。
+    <blockquote>
+      <p>当销售代表业绩不佳时，销售经理倾向于将其归因于下属的懒惰而不是客观外界条件的影响</p>
+    </blockquote>
+  </li>
+  <li><strong>自我服务偏见（Self-serving bias）</strong>：我们倾向于把自己的成功归因于内部因素如能力或努力，而把失败归因于外部因素如运气。</li>
+</ol>
+
+<h2 id="写在最后">写在最后</h2>
+
+<p>其实现实中很难直接应用归因模型来判断员工的绩效是否合格，并且上文中提到的三个行为信息也会相互作用，比如当一个员工某项工作未完成，并且表现出一贯性高时，则管理者或许会更容易忽视一致性和区分性，甚至将个体放入群体来判断一致性时，群体中的每个个体的归因结果都会相互影响，此时做出归因判断就会复杂许多。</p>
+
+<p>因此，凯利的归因模型为我们提供了一个思路，在管理工作中，管理者对员工的行为进行判断时都不可避免的受到这些规律影响，而在实际生活中，我们也可以应用归因模型中的这些规律来对自身进行判断，比如当你换工作时，你需要对你当前的工作状态作出评价，如果你最终归因出内部因素，那很有可能是你自身的问题，而并不是环境造成的，这个时候你应该改变的是你自身，依靠换一个环境是解决不了问题的。</p>
+
+
+
+                <br>
+          <br>
+    <br>
+
+
+<!-- jQuery -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="/js/main.min.js "></script>
+<!-- include image popups -->
+<script src="/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="/js/isotope.pkgd.min.js"></script>
+<!-- include mousewheel plugins -->
+<script src="/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="/js/modernizr.js"></script>
+
+</body>
+</html>
+
+
+    <!-- Footer -->
+<footer>
+<div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset- 1">
+               <!-- 不要footer的版权信息
+                <p class="copyright text-muted"> AdrianHua 2018  Powered by <a href="https://github.com/jekyll/">Jekyll</a>.</p>
+                !-->
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+
+</html>

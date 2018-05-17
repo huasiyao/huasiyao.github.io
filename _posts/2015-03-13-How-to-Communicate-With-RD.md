@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "如何有效地与开发沟通"
-date: 2015-03-13 09:42:44
-categories: 工作思考
-featured_image: /images/article_cover/cover_tech.jpg
+subtitle: "写给刚入职的菜鸟的自己，面对公司内部比较资深的研发，并且内部产品管理体系并不成熟的条件下，如何从心态上去化解沟通障碍"
+active: journal
+date: 2015-03-13
+header-img: "img/postcover/tech001.jpg"
+categories: Thinking
+comments: false
 ---
 
 今天在群里，有个网友提出了实际工作中的遇到的困惑：

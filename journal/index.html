@@ -1,0 +1,99 @@
+---
+layout: page
+description: "blog"
+title: "Journal"
+active: journal
+---
+
+<head>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/journal.css" media="screen" />
+</head>
+
+<body class="journal">
+<br>
+
+ <!-- 注释掉post和tag标题
+<div class="archive">
+  <h1 class="archive-title" style="display:inline-block;"> POSTS </h1>
+
+<div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; display:inline-block;margin-left:.5em;">
+    Browse by <a href="{{ site.baseurl }}/journal/category/">Category</a> or <a href="{{ site.baseurl }}/journal/tag/">Tag</a>
+  </div>
+</div>
+-->
+
+<section class="section--postsWrapper">
+  <div class="container">
+    <div class="blockGroup">
+      <ul class="blockGroup-list">
+
+{% for post in paginator.posts %}
+
+
+ {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+
+<li class="block">
+<div class="postArticle-wrapper">
+
+<div class="post-preview" >
+
+<!-- 注释掉超链接，放到title中，只有点击title才进入文章页面
+    <a href="{{ post.url | prepend: site.baseurl }}">
+-->
+<!--注释掉文章图片
+    {% if post.image.feature %}
+	<img src="{{ site.baseurl }}/img/postcover/{{ post.image.feature }}">
+	{% endif %}
+-->
+
+        <p class="post-cat" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; text-align: center"> {{ post.categories }}</p>
+        <p class="post-title" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; font-weight:300; "><a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
+        </p>
+
+
+    <p class="post-meta" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; text-align: center"> {{ post.date | date: "%B %-d, %Y" }}</p>
+
+        {% if post.subtitle %}
+        <p class="post-subtitle" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; text-align: center; color: #1f1f1f; padding-left:1px; padding-right:1px;"> {{ post.subtitle }}</p>
+        {% endif %}
+
+
+</div>
+
+</div>
+</li>
+ {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;" >
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; PREVIOUS</a>
+    </li>
+    {% endif %}
+
+    <!-- 样式不会写，所以不要页码显示了
+    <span class="button-height"> PAGE {{paginator.page}} OF {{paginator.total_pages}}</span>
+    -->
+
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">NEXT &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
+
+
+    <!--注释掉source
+<h6>Image Source: <a href="https://unsplash.com/photos/8muUTAmcWU4">UNSPLASH</a>
+-->
+</body>

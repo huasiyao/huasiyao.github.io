@@ -1,9 +1,95 @@
 # Site settings
-title: "Aggregate Thoughts" # Your Title
-tagline: "自我否定，自我重建" # A brief tagline for your site
-sidebar_image: /images/cover.jpg
+title: AdrianHua
+email: 'huasiyao@hotmail.com'
+description: 'So?'
+url: 'http://huasiyao.com'
+#baseurl: '/'
+#facebook_username: ''
+#twitter_username: ''
+#instagram_username: ''
+#github_username:  ''
+#deviantart_username: ''
+#flickr_username: ""
+#discus_shortname: ""
+weibo_username: 'hsyadrian'
+ideatorPub: 'hsyadrian'
+ithoughtSpace: ''
+weixin_username: ''
+resumehua: ''
+share: true
+
+# Owner/author information
+owner:
+  name: AdrianHua
+  #avatar: avatar.png
+  favicon: favicon.ico
+  info: Doing the right things right at the right time.
+
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
+# Set 'provider' to false to turn commenting off globally.
+#Set 'provider: false' to disable comments globally.
+# Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
+#
+comments :
+  provider : disqus
+  disqus :
+    short_name : ""
+
+# Internal nav
+nav:
+#  - GALLERY: "http://127.0.0.1:4000/gallery/"
+  - JOURNAL: "http://huasiyao.com/journal/"
+  - ABOUT: "http://huasiyao.com/about/"
+
+# All translation keys
+translations:
+ # 404.html
+  permalink: "/404.html"
+
+# Server
+destination:      	 ./_site
+port:             	 
+
 
 # Build settings
+#以下为修改的，##代表原来就有注释
+#kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
+#permalink: pretty
+#paginate: 5
+#paginate_path: "/journal/page:num/"
+#permalink: "/journal/:title/"
+#categories_path: "/journal/category/"
+#tags_path: "/journal/tag/"
+##gems: [jekyll-paginate]
+#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+#以下为模板源文件中的
+# Build settings
 markdown: kramdown
-highlighter: Rouge
-baseurl: #/strange_case # the subpath of your site, e.g. /blog/
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "/journal/page:num/"
+permalink: "/journal/:title/"
+categories_path: "/journal/category/"
+tags_path: "/journal/tag/"
+gems:
+ - jekyll-paginate
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+
+
+# SiteMap
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/writing/"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

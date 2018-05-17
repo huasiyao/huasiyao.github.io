@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "凯利的归因模型"
-date: 2016-12-26 09:42:44
-categories: 学习笔记
-featured_image: /images/article_cover/cover_ab.jpg
+subtitle: "年末了，大家都在讨论领导对自己绩效的打分，本文是记录了我在学习凯利归因模型后，如何看待绩效考评的总结"
+active: journal
+date: 2016-12-26
+header-img: "img/postcover/human006.jpg"
+categories: Learning
+comments: false
 ---
 
 > *本文为凯利的归因模型的学习笔记，其中文章中关于归因模型的理论部分，来自于[MBAlib](http://wiki.mbalib.com/wiki/凯利的归因模型)*

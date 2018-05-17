@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AdrianHua</title>
+    <description>So?</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 17 May 2018 15:14:49 +0800</pubDate>
+    <lastBuildDate>Thu, 17 May 2018 15:14:49 +0800</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>《SaaS怎么做》阅读笔记</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;本文为得到APP中《SaaS(软件即服务)怎么做》阅读笔记，原文作者为李国刚老师&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;saas产品参考&quot;&gt;SaaS产品参考&lt;/h4&gt;
+&lt;blockquote&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.rishiqing.com/saas/&quot;&gt;https://www.rishiqing.com/saas/&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://xhjer.com&quot;&gt;http://xhjer.com&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://cardlifeapp.com/saas-directory&quot;&gt;https://cardlifeapp.com/saas-directory&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;saas较传统信息化的优势&quot;&gt;SaaS较传统信息化的优势：&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;降低了企业购买软件的一次性成本&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;过去企业购买一个软件要花费百万级，现在只需要按需付费，一年的订购费大幅降低。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;降低了企业运维的成本&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;企业不需要有自己的技术人员去维护，软件全部运行在云端，由厂商负责运营和维护，企业只负责享受便利性的服务。&lt;/p&gt;
+
+&lt;h2 id=&quot;近几年saas服务迅速增长的三个驱动因素&quot;&gt;近几年SaaS服务迅速增长的三个驱动因素：&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;移动化驱动&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;过去为了匹配信息化，企业需要投入大量的资金去购买硬件产品，现在智能终端设备就能解决了。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;云服务普及解决了盗版问题&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;企业软件服务商最头疼的就是盗版问题，而现在企业服务的架构是基于云租用或基于使用量计费，几乎不会面对盗版问题，让软件开发商有更好的生态环境。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;人力成本的增加对工作效率有更高的要求&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;企业雇佣员工的成本越来越高，公司需要不断地降低成本，提高运营的效率，SaaS能够减少公司人员成本的投入，并且能够大幅提高运营效率。&lt;/p&gt;
+
+&lt;h2 id=&quot;投资机构如何评估saas公司价值-&quot;&gt;投资机构如何评估SaaS公司价值 🚩&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;单位经济（Unit Economic）&lt;/strong&gt; ：简言之，就是一个单位所产生的价值。&lt;/p&gt;
+
+&lt;p&gt;企业在获取一个客户时，会支出 &lt;strong&gt;客户的获取成本（CAC）&lt;/strong&gt; ，所获得的是 &lt;strong&gt;客户整个生命周期的价值（LTV）&lt;/strong&gt; ，所以，评估SaaS服务的价值，就看客户生命周期所产生的价值总和是否大于客户的获取成本，如果LTV远大于CAC，则就会很有前景。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;客户生命周期价值 = 一个客户的年服务费 * 毛利率 / 客户的年流失率&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;举例：&lt;/p&gt;
+
+  &lt;p&gt;一个客户使用某公司的SaaS服务，一年服务费为3万元，产品的毛利率大约是80%，整个行业的客户年流失率约为20%。&lt;/p&gt;
+
+  &lt;p&gt;所以带入公式得到，这个公司的客户生命周期价值为12万。&lt;/p&gt;
+
+  &lt;p&gt;如果这家公司获取单个客户的成本远低于12万，则这家公司非常具有投资价值，反过来，这家公司的业务存在问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;美国某SaaS专家总结的以下三个规律 &lt;em&gt;（以下观点无法考证，仅供参考，by华思尧）&lt;/em&gt; ：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;好的SaaS公司，客户生命周期价值应该是客户获取成本的三倍；&lt;/li&gt;
+  &lt;li&gt;收回客户获取成本的时间最好不要超过12个月；&lt;/li&gt;
+  &lt;li&gt;一家优秀的SaaS公司，客户流失率很少会超过20%；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;典型的创业公司分为三个阶段同样适用于saas创业&quot;&gt;典型的创业公司分为三个阶段，同样适用于SaaS创业：&lt;/h2&gt;
+
+&lt;p&gt;第一阶段：寻找产品与市场的匹配；&lt;/p&gt;
+
+&lt;p&gt;第二阶段：确保单位经济模型合理，探索出可复制的销售模式；&lt;/p&gt;
+
+&lt;p&gt;第三阶段：快速扩张&lt;/p&gt;
+
+&lt;h2 id=&quot;saas创业的陷阱和雷区&quot;&gt;SaaS创业的陷阱和雷区&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;先用免费的产品获取流量，再通过增值业务来收费&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这个模式在B2C领域可以实施，但是在B2B的企业服务不可实现。因为很多企业客户的技术负责人对企业边界或企业机密是非常敏感的，对于服务提供方来说，免费的平台或服务意味着能快速获取流量，但对于客户来讲，他们会认为信息容易被泄露。如果用免费的方式获取用户，所获取的哪些企业级用户其实大多数都是无效的。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;忽略专业性&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;SaaS服务领域，根据产品的复杂程度可以分成两大领域：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一领域：&lt;/strong&gt;产品复杂性较低。SaaS服务对于大部分企业都是通用的，比如企业邮箱、企业及时通讯软件等（代表性的如阿里云邮箱、零信、quip等）。这些服务很多互联网巨头很容易切入，所以初创企业做是比较难成功的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二领域：&lt;/strong&gt;产品复杂度高。说白了就是重度垂直的领域，比如CRM、HRM、项目管理、数据处理等等，在这些领域，很多企业的CIO、CTO本身就是非常专业的技术人士，如果他们发现你的产品针对他们所在的领域所做的解决方案，就会容易产生浓厚的兴趣，这些领域比较容易创业。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;个人总结&quot;&gt;个人总结&lt;/h2&gt;
+
+&lt;p&gt;其实SaaS的兴起，主要得力于2015、2016年中国互联网的崛起，传统的信息化和高成本的投入，不足以支撑互联网公司的快速扩张，而这些互联网公司绝大多数都是B2C的模式，这个模式的最大特点就是一旦找到产品与市场的匹配度后，用户就会呈指数增长，而传统的信息化反倒拖慢企业运营效率，就像文中所说的，SaaS可以大幅的提高运营效率，并且SaaS模式的可复制性，是传统信息化企业所不能及的。&lt;/p&gt;
+
+&lt;p&gt;一直比较关注teambition，在去观察他们的增长模式，他们在早期（2014-2016年初期）时，仅提供标准的SaaS服务，也就是说，对于他的客户群来说，所享受的产品的差异程度是很小的（当时只有私有化部署），而积累了一定的客户和行业经验后（2016年中期至今），已经在一个垂直化的领域形成了更加细分的解决方案，比如面向研发团队、面向销售团队等等。&lt;/p&gt;
+
+&lt;p&gt;也就是说，看SaaS服务模式未来是否有前景，至少要想它的早期和中期：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;早期：&lt;/p&gt;
+
+    &lt;p&gt;看该模式是否既是垂直领域，但又不受限该领域中各行业的应用，Teambition切入是团队协作领域，但各行各业的公司都会面对团队协作的问题；&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;中期：&lt;/p&gt;
+
+    &lt;p&gt;看该模式能否在该领域的各行业细分为解决方案，Teambition在团队协作领域细分为，销售团队协作、产品团队协作等&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;后期：&lt;/p&gt;
+
+    &lt;p&gt;其实后期很少有人能判断，但从Teambition的发展来看，将制造业、教育行业做成全套的解决方案，渗透该行业某一公司各个团队间的协作，已经成功了。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;所以，当找到市场与产品的匹配后，先在领域内快速复制，客户群积累后，再按行业垂直细分。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Nov 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/journal/SaaS-What/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/SaaS-What/</guid>
+        
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>TTPPRC商业模型--by风尘棋客</title>
+        <description>&lt;p&gt;&lt;em&gt;本文中的TTPPRC商业模型为&lt;a href=&quot;https://www.zhihu.com/people/yuzhouedison&quot;&gt;@风尘棋客&lt;/a&gt;原创，版权归其所属，本文为本人学习后的整理，原文请见&lt;a href=&quot;https://zhuanlan.zhihu.com/p/20325151?columnSlug=edisonlab&quot;&gt;TTPPRC商业模型：30分钟拥有MBA的商业分析能力&lt;/a&gt;，如需转载作者原文，请务必与原作者联系&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;引言&quot;&gt;引言&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;成功的商业决策者和普通消费者之间的区别，就在于前者对于同样的现象，更能从本质上细致而深刻地理解成因，并知道如何采取相对应的措施去改变现象&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;为什么说成功的商人总是能够抓住消费者的心理，其实并不是他们更懂人性、更懂心理学，而是说他们善于在千千万万种十分普遍的现象中抓到背后的规律。即使是在经典的工商管理方法论，在面对实操时，都会离结果更远，这些拥有一套严密逻辑的经典，都不会告诉你为什么郭敬明的电影可以比冯小刚的票房高好几倍，为什么海底捞火锅人声鼎沸而味道却不如更正宗的川式火锅店。&lt;/p&gt;
+
+&lt;p&gt;在真正去思考商业模式的成功时，我们总是习惯于站在已经成功这的角度去进行推理，而推理的过程也倾向于做出成功的结论，而当我们真正去思考商业上的成功时会发现，&lt;strong&gt;一切商业活动的本质都是对于目标客户消费决策的引导和理解，而所有消费活动都遵循一个相似的过程&lt;/strong&gt;。因此，商业活动是由若干环节组成的，不论管理还是营销过程，都是为了这些环节而服务的。找出这些环节，也就能够找到能够最终影响商业是否成功直接因素。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;从决策者的决策过程来分析问题&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;ttpprc商业模型&quot;&gt;TTPPRC商业模型&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;趋势（Trend），流量（Traffic），包装（Package），产品（Product），重复性消费（Revisit），相应成本（Cost）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;将商业过程按照上面的角度分类并不是十分缜密，因为这六个环节并非严格相互独立的，但并不是所有的商业理论都是用来发Phd论文的，作者所提出的TTPPRC模型十分适合用来指导商业行为。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;趋势trend&quot;&gt;趋势（Trend）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;顺势而为是从事一切商业活动的首要因素。在趋势（Trend）的面前，个人能力终归都是渺小的&lt;/p&gt;
+
+  &lt;p&gt;当你的洞察力没高到惊人的程度之前，如果发现了一个很明显的市场空白，那这个市场最大的可能就是——根本不存在&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;没有人能够扭转趋势（Trend）和预测趋势（Trend），甚至对于大多数人来说，当你能够预测某些事情将来会成为趋势时，要么它已经正在发生了，要么压根不是趋势。马云不是第一个做电子商务的，海底捞也不是第一个卖火锅的，敢于第一个吃螃蟹的人，除了少数极具长远眼光的天才和运气爆棚的家伙之外，风险回报比并不高，所以当你看了几篇可穿戴设备或者无人驾驶的报道后，不用再信誓旦旦的说这些就是趋势，没有几个人能够真正看懂它未来会走向何方，就连google当年推出惊世骇俗的谷歌眼镜，最终也落下了不了了之的下场。
+面对趋势（Trend），别说预测和扭转了，就连理解它都已经十分困难，当年一时火爆的平板电脑，如今已经成了夕阳行业，大连一碗牛肉面的价格近10年翻了几倍，而在网吧上网却还是3块钱一小时。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;与其费尽心思解读为什么会有这样的趋势，不如时刻留心趋势的变化，紧随时代的潮流的&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在TTPPRC中，趋势（Trend）是这六步中的第一步，面对不容易获得竞争优势的环节，只要&lt;strong&gt;保持不犯错误就好&lt;/strong&gt;，因为想要玩的出彩，是在太难了。北京的京东苏宁都当日送达了，就别在中关村租摊位卖手机，人人网大V都不更新了，就好好研究一下微博和公众号吧。&lt;/p&gt;
+
+&lt;h3 id=&quot;流量traffic&quot;&gt;流量（Traffic）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在TTPPRC中，我把流量（Traffic）简单定义为，让&lt;strong&gt;目标客户&lt;/strong&gt;了解到他们有这么一个消费选择。换句话说，无论你在卖什么，先得让人知道你在卖呀。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;随着互联网时代的到来，人们愈发地意识到，流量本身就是一门巨大的生意，世界上有太多的企业在卖东西，而其中的绝大多数，我们压根永远都不会知道。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;流量（Traffic）不是万能的，它和六步模型中的下一步包装（Package）紧密相连，再优质的流量，如果你的商业项目包装不好也是白费&lt;/strong&gt;。通过流量导入的大量客户，但是产品很差，则会导致流量流失。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;强势品牌可以自发的导入流量（Traffic）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;不同的商业项目对流量（Traffic）的具体需求大不相同，一般而言，越是标准化高可替代性高的业态，流量这个环节在整个生意上就越重要&lt;/strong&gt;。差异化强的业态，对于直接流量的需求相对就要小一些，可以通过巧妙的宣传手段让目标客户送上门来，比如私家会所，爱马仕Birkin，知名天使投资人。。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;目标客户是企业而非大众消费者的（B2B和C2B），决定流量（Traffic）的是销售团队的力量&lt;/strong&gt;。99%的互联网创业注定尸骨无存的原因不用太复杂的分析，流量（Traffic）这关根本就过不去。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;归根结底，一个商人商业能力的高低的首要标准，就是看他能为自己的生意导入多少流量（Traffic）。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;包装package&quot;&gt;包装（Package）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;所谓包装，就是说当目标客户得知了他们有了这样一个消费选择后，你的生意是以怎样的面貌呈现在消费者面前的。&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;包装很大程度上是整个生意成败的决定性因素，而不是产品本身！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;擅长“包装”并不是仅仅善于“营销”而已&lt;/strong&gt;，一个优秀的包装（Package），是高超的管理统筹能力，领先的战略眼光，饥渴的销售团队，一流的综合执行力等素养的综合体现，&lt;strong&gt;一切在消费者买单之前对于你的产品产生的印象，都是由包装的质量决定的&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;包装（Package）才真正决定了消费者是否会对你的产品进行消费！而不是产品质量的好坏&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;包装（Package）对于生意的影响为什么可以比产品本身还重要，我们需要从人们的消费决策是如何做出的来具体分析。&lt;strong&gt;一个消费者决定是否对你的产品进行消费，不并是基于产品的实际体验如何（因为他还没用上嘛），而是基于他头脑中对于该次消费的预期体验是否超过了所需要付出的货币价值&lt;/strong&gt;。这种期待不但是感性的，而且是极其容易被引导的。&lt;/p&gt;
+
+&lt;p&gt;更具体的说，&lt;strong&gt;人们对于短期吸引和实际体验的感受其实完全是两回事，但消费决策主要是由短期吸引决定的&lt;/strong&gt;，也就是这里所强调的“包装”；而产品本身提供的是实际体验，决定的是是否重复消费和向别人推荐。&lt;/p&gt;
+
+&lt;p&gt;包装最终成就一个品牌，而品牌就是终极的包装。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;比较重量级的包装方式：“排队”、“熟人推荐”&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;推荐阅读：邓德隆的《2小时品牌素养》，Sally Hogshead的《迷恋》和Martin Lindstrom的《品牌洗脑》&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;产品product&quot;&gt;产品（Product）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;产品的概念也不只是物件本身，包含了服务，保养，售后等等一系列消费行为发生之后，消费者所得到的完整体验&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;产品（Product）的主要作用是促进二次消费和导入新的流量，而非促成消费决策。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一个优秀的产品（Product）的威力之大，可以瞬间打通TTPPRC中的四个要素（产品，流量，包装，重复性消费），这是其他任何一个环节做得再好也无法做到的&lt;/strong&gt;。所以，对于一个打算做长久生意的企业而言，产品质量永远是重中之重。&lt;/p&gt;
+
+&lt;p&gt;我们这里探讨的产品（Product）包罗万象，但好产品的共性是一致的，这是由人对于事物的认知方式所决定的。那么究竟什么才算的上是一个好的产品呢？简单来说其实就两条：&lt;/p&gt;
+
+&lt;p&gt;第一要具有一样鲜明的特色，第二其他环节没有硬伤。鲜明的特色可以让消费者留下深刻的印象，而其他环节没有硬伤则是为了不给消费者明显的放弃理由，二者缺一不可。&lt;/p&gt;
+
+&lt;h3 id=&quot;重复性消费revisit&quot;&gt;重复性消费（Revisit）&lt;/h3&gt;
+
+&lt;p&gt;我们从一个简单的例子入手，同样作为消费级的电子产品，笔记本电脑和智能手机的普及度是差不多的。而且电脑的平均价格还要比智能手机高一些。但为什么全世界的商人都在一窝蜂的做手机，而不是笔记本电脑？为什么一款iPhone，可以让苹果公司从一个700亿美金的公司飙升为到7000亿？&lt;strong&gt;从TTPPRC的角度来看，Macbook和iPhone在趋势，流量，包装，产品和成本上是大同小异的，而从700亿到7000亿的秘密，就在于这个重性复消费（Revisit）上的天壤之别。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;并不是所有的商业项目都需要重复性消费（Revisit）&lt;/strong&gt;。诸如婚庆礼仪，高考培训，旅游景区门票等大多数人一生只消费已一次的商业项目，优秀产品的作用主要是赢得口碑导入新流量（Traffic）和为新流量自动增强包装(Package)。&lt;/p&gt;
+
+&lt;p&gt;如何令你的商业项目拥有强大的重复性消费力呢？关键因素有两点：&lt;strong&gt;一是商业项目的天然属性，二是创业者对于该项目的设计。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;所谓商业项目的重复性消费（Revisit）的天然属性，是人们长期的行为习惯和一些历史传统所决定的。&lt;/strong&gt;暴雪公司可以凭一款魔兽世界增加地图和道具吃上十年，而植物大战僵尸几乎就是手机游戏重复性消费的极限了，神庙逃亡都已经过气了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;需要注意的是，商业项目的是否天然具备重复性消费（Revisit）属性，常常是极其难以预测和分析的，作为我们普通人而言，只需要观察和类比就足够了&lt;/strong&gt;。比如起司蛋糕的重复性消费能力比不上泡芙，商场里的吉士果店基本上都活不过一年，但章鱼小丸子却可以常年兴旺，以上的现象即便在餐饮界摸爬滚打多年，也很难提前判断。但我们可以事先知道的是，它们的重复性消费力一定都比不上煎饼果子，拉面或者冰淇淋，所以后者门的竞争激烈程度必然会更高。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;重复性消费（Revist）弱的项目往往短期之内流量（Traffic）和包装（Pacakge）更强。&lt;/strong&gt;比如面对创意菜餐厅的普遍重复性消费（Revisit）比较差的问题，雕爷牛腩采取了菜单每月一小换三月一大换的解决方案，在保留了创意菜VS家常菜流量（Traffic）和包装（Pacakge）的优势上，提高了重复消费能力。电影是典型的天生重复性消费（Revisit）比较差的一种商品，再好看的电影我们一般也就是去电影院消费一两次，但郭敬明就能把小时代这种拍成一部都嫌长的片子，在流量和包装上狠下功夫，硬生生劈成了四部MV。而且从另外一个角度上来说，把同一个故事先在杂志上发上几年的连载，再合并成书出版，再拍成了连续剧，又拍成了电影，可算是充分地挖掘了同一批消费者对于一个故事的重复消费能力，不愧为一代顶级奸商。&lt;/p&gt;
+
+&lt;h3 id=&quot;成本cost&quot;&gt;成本（Cost）&lt;/h3&gt;
+
+&lt;p&gt;任何商业活动的本质，都是为了盈利而服务的，任何项目利润的来源都是建立在所提供的服务价值能够超越自身成本的基础上（虽然互联网时代的生意似乎越来越多已经转向了融资上市套现的获利方式，但这不意味着资本家们永远都不在乎毛利率），抛开了成本的一切商业模式都是空谈。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/journal/TTPPRC/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/TTPPRC/</guid>
+        
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>凯利的归因模型</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;本文为凯利的归因模型的学习笔记，其中文章中关于归因模型的理论部分，来自于&lt;a href=&quot;http://wiki.mbalib.com/wiki/凯利的归因模型&quot;&gt;MBAlib&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;什么是归因&quot;&gt;什么是归因&lt;/h2&gt;
+
+&lt;p&gt;所谓&lt;strong&gt;归因（attribution）&lt;/strong&gt;，顾名思义，就是&lt;strong&gt;将人的行为进行因果解释和推论&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;当我们在解释别人行为时，通常有两种方式，第一种是通过多次观察一个人的行为来进行归因，称之为&lt;strong&gt;多线性归因&lt;/strong&gt;，另一种就是&lt;strong&gt;单线性归因&lt;/strong&gt;了，依据一次观察就做出归因。&lt;/p&gt;
+
+&lt;h2 id=&quot;归因模型的理论基础&quot;&gt;归因模型的理论基础&lt;/h2&gt;
+
+&lt;h4 id=&quot;对行为的归因总是涉及三方面的因素&quot;&gt;对行为的归因总是涉及三方面的因素：&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;（1）客观刺激物；                         ——外部归因
+
+（2）行动者本身；                         ——内部归因
+
+（3）行动者所处的关系与环境；    ——外部归因
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;对上述因素的任何一个因素的归因都取决于下列三种行为信息&quot;&gt;对上述因素的任何一个因素的归因，都取决于下列三种行为信息：&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;区分性（distinctiveness）&lt;/strong&gt;：指当被观察者面对同一个刺激或环境下时，究竟是表现同一个行为，还是仅在某一个特定情况下才表现这一行为的&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;例如一名今天迟到的员工，是否在经常表现出自由散漫、违反规章纪律&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;如果行为的区分性低（上述例子中的员工确实平时表现出自由散漫、违反规章几率），可以归因为内部，反之，可归因为外部。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;一贯性（consistency）&lt;/strong&gt;：指被观察者是否长期在任何情况任何时候都会产生同一行为，即他的行为是否稳定而持久&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;例如如果一名员工并不总是上班迟到，她有7个月从未迟到过，但是她今天迟到了，则表明这是一个特例，她的行为的一贯性较低；而如果她每周都迟到几次，则表明她的行为的一贯性较高&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;行为的一贯性越高，越倾向于对其作为内部归因。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;上述中的区分性和一贯性的不同点是，前者是将行为者放在相同环境和相同刺激下，看其行为是否有所区别，而后者将行为者放在任意环境和任意时间，看其行为是否长期稳定且持续。。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;一致性（consistency）&lt;/strong&gt;：指其他人面对同一个环境下，是否与被观察者做出同样的反应&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;例如所有走相同路线上班的员工都迟到了，则迟到行为的一致性就高，如果走相同路线的其他员工都准时到达了，只有行为者没有到达，则一致性低&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;一致性高，倾向于对行为进行外部归因，一致性低，应该进行内部归因。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;如何进行归因&quot;&gt;如何进行归因&lt;/h2&gt;
+
+&lt;h4 id=&quot;通过上述的三个方面的信息可以将人的行为归因于自己本身还是外部环境那么管理者该如何通过上面三个信息对员工的行为作出评价呢&quot;&gt;通过上述的三个方面的信息，可以将人的行为归因于自己本身，还是外部环境。那么管理者该如何通过上面三个信息对员工的行为作出评价呢？&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;首先&lt;/strong&gt;，将员工完成某项工作的水平与自身其他工作做比较，如果水平相当，则说明这名员工的该工作的&lt;strong&gt;区分性低&lt;/strong&gt;；&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;其次&lt;/strong&gt;，将该员工与其他员工进行比较，若在这项工作中，其他员工完成的水平与他十分不同（或高或低），则说明他的&lt;strong&gt;一致性低&lt;/strong&gt;；&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最后&lt;/strong&gt;，看该员工完成这项工作的水平是否稳定，若无论何时都是稳定的，则说明&lt;strong&gt;一贯性高&lt;/strong&gt;；&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;因此，根据这些我们可以判断出，这名员工的这项工作成果归因于内部因素，自己本身对绩效负有主要责任。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;例1&lt;/strong&gt;：一名销售人员，连着三个季度都没有完成目标&lt;strong&gt;（一贯性高）&lt;/strong&gt;，和这名销售人员同一个团队的其他销售人员在第三季度都已经完成销售目标了&lt;strong&gt;（一致性低）&lt;/strong&gt;，并且他在第三季度的其他工作比如收款目标也都没有完成&lt;strong&gt;（区分性低）&lt;/strong&gt;，则说明这名员工第三季度的绩效低是由于自身原因造成的。&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;例2&lt;/strong&gt;：一名销售人员第一季度和第二季度销售目标已经完成，但是第三季度没有完成销售目标&lt;strong&gt;（一贯性低）&lt;/strong&gt;，其他销售人员第三季度也没有完成销售目标&lt;strong&gt;（一致性高）&lt;/strong&gt;，这名销售人员该季度其他工作都已经完成&lt;strong&gt;（区分性高）&lt;/strong&gt;，则此时可以倾向于将这名员工第三季度未完成销售目标归因于外部因素。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;进行归因时的常见错误与偏见&quot;&gt;进行归因时的常见错误与偏见&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;基本归因错误（Fundamental attribution error）&lt;/strong&gt;：我们总是倾向于低估外部因素的影响而高估内部或个人因素的影响。
+    &lt;blockquote&gt;
+      &lt;p&gt;当销售代表业绩不佳时，销售经理倾向于将其归因于下属的懒惰而不是客观外界条件的影响&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;自我服务偏见（Self-serving bias）&lt;/strong&gt;：我们倾向于把自己的成功归因于内部因素如能力或努力，而把失败归因于外部因素如运气。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;写在最后&quot;&gt;写在最后&lt;/h2&gt;
+
+&lt;p&gt;其实现实中很难直接应用归因模型来判断员工的绩效是否合格，并且上文中提到的三个行为信息也会相互作用，比如当一个员工某项工作未完成，并且表现出一贯性高时，则管理者或许会更容易忽视一致性和区分性，甚至将个体放入群体来判断一致性时，群体中的每个个体的归因结果都会相互影响，此时做出归因判断就会复杂许多。&lt;/p&gt;
+
+&lt;p&gt;因此，凯利的归因模型为我们提供了一个思路，在管理工作中，管理者对员工的行为进行判断时都不可避免的受到这些规律影响，而在实际生活中，我们也可以应用归因模型中的这些规律来对自身进行判断，比如当你换工作时，你需要对你当前的工作状态作出评价，如果你最终归因出内部因素，那很有可能是你自身的问题，而并不是环境造成的，这个时候你应该改变的是你自身，依靠换一个环境是解决不了问题的。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 26 Dec 2016 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/journal/Attribution-Mode/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/Attribution-Mode/</guid>
+        
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>“为什么加入我们”</title>
+        <description>&lt;p&gt;相信大家在面试过程中经常会被问到一个问题：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;为什么要加入我们？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;昨天和一个HR聊天时，我也中弹，我当时回答说，是产品，后来反复思考，我发现这个回答是有些违心的。我真的会因为一个喜欢的产品而加入一个公司吗？还是因为我想要获得什么回报？直到我看到了一篇马云与稻盛和夫对话的报道（&lt;a href=&quot;http://finance.sina.com.cn/leadership/sxyrw/20081210/21525618744.shtml&quot; title=&quot;原文链接&quot;&gt;原文链接&lt;/a&gt;），才真正清楚想要加入这家公司的动机。&lt;/p&gt;
+
+&lt;p&gt;很多人跳槽的原因都是欲望驱动的，而这种欲望会随着社会的包装而愈发的强烈。我相信，很少有人不会因为你的哪位同事跳槽后薪资翻了几倍而无动于衷。而我觉得，这样的想法会让人失去自我。一个能够吸引你加入的公司，或许是他们的产品有多顶尖，或许是他们的理念有多新颖，但最终能让你坚持下去的是这个团队本质——人。&lt;/p&gt;
+
+&lt;p&gt;我忘记从哪篇文章中看到这样一句话，风投进行投资时，只要投对了人，那就是成功的一半了。对于我们年轻人来说，我们没有资金，没有牛逼的能力，我们有的只有青春，而我们唯一可以拿去投资的资本，就是青春。很多人都忘了这一点，都觉得跳槽可以让你的薪水涨很高，都在期望通过跳槽来让自己的方式涨薪，人的本性已经被欲望拖到了一个危险的边缘。这样的结果就是，人们越来越浮躁，为了追求金钱，而频繁的跳槽，沦为在职场中的一种“商品”。&lt;/p&gt;
+
+&lt;p&gt;而我从那篇报道中得到的答案后反省自己想要加入他们的动机，是因为靠谱两个字。靠谱是装不出来的，而是通过你的言行能够表达出来的。在一个靠谱的公司工作，你能感觉到人性的向善面，你能够看到与你价值观相符合的企业文化，你能够把你的梦想毫无牵挂的托付出去。产品可以推倒重做，理念可以通过在实际中践行，但是靠谱的人越来越少了。&lt;/p&gt;
+
+&lt;p&gt;我自认为是一个比较实在的人，也在工作中看到了许多不靠谱的事。如果你本身是一个靠谱的人，你会发现你能和一个靠谱的公司在价值观上能够找到共鸣，这是一种犹如寻觅到知音的感觉。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xjas0.com1.z0.glb.clouddn.com/6630612567884975698.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/journal/why-join-us/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/why-join-us/</guid>
+        
+        
+        <category>Thinking</category>
+        
+      </item>
+    
+      <item>
+        <title>GTD与需求管理的思考</title>
+        <description>&lt;p&gt;前不久在小强的时间管理博客看了一篇GTD入门文章，原文地址如下：
+&lt;a href=&quot;http://www.gtdlife.com/2008/950/look-at-the-flow-chart/&quot; title=&quot;点我阅读&quot;&gt;《搞定GTD-想入门不一定非要看书，看流程图》&lt;/a&gt;
+主要介绍了时间管理的流程，于是动手画了一张：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xjas0.com1.z0.glb.clouddn.com/2446580497586893026.png&quot; alt=&quot;GTD.png&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;通过图中可以看到，对于我们想做的、正在做的、已做的事项都通过一套流程进行分类，将有价值的列入到计划中。而在日常的需求管理中，我们也会遇到各种各样来自于四面八方的新需求，面对这种庞杂的新需求，也应该有一套方法论进行管理。&lt;/p&gt;
+
+&lt;p&gt;说白了，对新需求的管理，就是确定其是否纳入开发计划，以及排定优先级等工作。说的容易，但对于像我这种产品菜鸟来说，做起来却竟让出现迷茫。判定一个新需求或变更需求是否纳入Baseline中，不仅要考虑到各种成本，还要考虑其是否有价值，会对产品造成什么影响等因素。换个角度考虑，每个需求和日常生活中的事项一样，当我们判定一个事项从Inbox纳入到下一步行动中时，也会考虑这件事对我的意义有多大等因素。&lt;/p&gt;
+
+&lt;p&gt;之前的工作中，对于这些需求，通常全部都列在Baseline中，这样的结果就是，在后续产品规划中，许多都对开发造成了负担，甚至当初搜集的需求，有的被遗弃，有的被过度挖掘。这样会在产品规划时造成误导，什么都想要，什么都重要，又都不重要。&lt;/p&gt;
+
+&lt;p&gt;若引入GTD的思想对日常需求进行管理，可以很容易的进行规划和迭代。列出四项清单：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inbox&lt;/li&gt;
+  &lt;li&gt;Next&lt;/li&gt;
+  &lt;li&gt;Wait&lt;/li&gt;
+  &lt;li&gt;Recycle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;具体做法&quot;&gt;具体做法：&lt;/h5&gt;
+&lt;ol&gt;
+  &lt;li&gt;对于所有搜集到的需求，全部纳入Inbox中，并定期对Inbox的需求进行讨论，根据需求的优先级，将准备开发的需求纳入Next清单中；&lt;/li&gt;
+  &lt;li&gt;在Next清单中对这些需求设定基线，每一个基线类似于一个包，开发人员根据基线的计划进行迭代，每完成一个基线意味着一次迭代完成；&lt;/li&gt;
+  &lt;li&gt;而对于优先级较低的需求，不确定合适会安排开发的，将其列入Wait清单中，Wait清单中的需求，根据计划再规划到Next中；&lt;/li&gt;
+  &lt;li&gt;那些被kill的需求，存入Recycle清单中，以便后续可以追溯；&lt;/li&gt;
+  &lt;li&gt;当每次讨论Inbox中的需求时，若Wait中有需求，则也会一并讨论，考虑是否纳入本次开发计划中&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;当日常需求很多又很杂，且开发任务很多，迭代频繁时，引入该方法能够更清晰的管理日常需求，但如果产品迭代不紧凑，甚至没有迭代或日常需求不多时，完全没有必要这样做，一个Excel就可以搞定。因具体的情况总结出适合自己的管理方法，能够有效地提高工作效率。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Apr 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/journal/GTD-for-RM/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/GTD-for-RM/</guid>
+        
+        
+        <category>Thinking</category>
+        
+      </item>
+    
+      <item>
+        <title>如何有效地与开发沟通</title>
+        <description>&lt;p&gt;今天在群里，有个网友提出了实际工作中的遇到的困惑：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;开发觉得需求没有价值，不去实现，该怎么办？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;于是群里给了各种解决方案：请客吃饭、找领导、解释、命令等等。&lt;/p&gt;
+
+&lt;p&gt;在我刚工作的时候，也遇到了许多阻力，再加上自己沟通能力不是特别强，更需要突破的时候，在网上找了许多文章，似乎在很多公司中，开发与产品经理之间总是有种或多或少的隔阂，开发觉得产品经理没技术，什么都不懂，就喜欢指手画脚，而PM觉得开发没有品位，如果没有视觉和交互，他们做出来的东西用户根本不会去用。按照我的感觉，这种现象在价值观一致的公司不会很严重，因为大家的目标都是一致的，专业的人去做专业的事，然后通过团队的力量将这件事情做好做对，反倒是像我目前所在的这种传统营销模式的公司（传统软件公司，toB），较容易出现这种现象，本质的原因就是，永远无法量化一个产品的好坏，因为产品再差，强大的销售部门和售前工程师都能轻而易举的卖到客户手中（中标）。
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;铺垫了环境，其实我想说，怎样的工作效率，不仅仅取决于公司文化，团队能力，leader管理，最重要的取决于个人。无论是何种性质的IT公司，对于产品与开发进行沟通时，通常是沟通对象的个人性格与职业素养决定了沟通的效率。&lt;/p&gt;
+
+&lt;p&gt;那么面对这种情况，一定要看清本质，去揣摩他们的心理。他们觉得需求没有价值，也就是觉得这些东西是锦上添花的，自己不屑于去做这种费力不讨好的事情（嫌麻烦）。那么什么叫做有意义有价值的呢？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;就是让用户去用，让用户买单的改进&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;或许这句话是废话，但事实确实如此。有许多工程师会在自己的博客中写一些技术博文，当许多人看到了，纷纷向他请教，或者引用他的技术解决了很多问题时，他觉得这是有价值的。工程师自己开发了一些小工具，挂到了网上，下载量非常多，收到了许多的好评，他觉得这是有价值的。因此，真正能与开发之间进行有效沟通的方法，就是永远都要让他们觉得：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;他们所做的事情，是有价值的！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;价值通常是由信息交互的双方来决定的，例如买卖，很多人觉得砍价难，其实在买卖双方中，寻找利益平衡的点，就能创造共赢的价值，我想用便宜的价格买东西，卖家想要卖更多的东西，于是在一个合理的价格，买家肯掏钱，卖家肯接受，这就是有利于双方的价值。&lt;strong&gt;开发想要的很简单，我实现了这份需求，究竟创造了多少价值？&lt;/strong&gt;带着这个问题出发，其实就容易的多了，因为无论开发也好，PM也好，利益都是一致的。&lt;/p&gt;
+
+&lt;p&gt;上面简单分析了一下，下面简单总结一些小技巧，这些技巧，无外乎就是围绕 &lt;strong&gt;让开发觉得他写的程序是有价值的&lt;/strong&gt; 来进行沟通的：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;对于一些不善于沟通，但善于倾听的工程师，尽量举出数据，举出例子，然后给予肯定；&lt;/li&gt;
+  &lt;li&gt;对于一些怎么说都不听的，要从平日里下功夫，经常把运营的数据向开发反馈，当然一定是好的数据，比如“某某需求提高了多少用户转化率，多亏了开发的实现”，如果PM是妹子的话，还可以卖个萌；&lt;/li&gt;
+  &lt;li&gt;多了解一些技术前沿的资讯，最好再培养自己一些极客范，和开发之间建立一些共同的话题，能形成一个小圈子；&lt;/li&gt;
+  &lt;li&gt;尽量不要去找领导协调，领导有自己的事情，沟通本来就是自己的职责，不要让领导去帮你擦屁股，另外，如果经常找领导，将来在遇到这种情况时，开发可能会跨过你，直接去找领导；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;阅历比较浅，所以总结的不多，以后再补充。
+送给自己：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;在没有创造价值之前，别看是“经理”，但一文不值&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;作为PM，一定要摆正姿态，你的价值，是你的资源来帮你实现的&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;由于大学学的是计算机，也在实习的时候做过程序员，所以在心里一直觉得写代码是一种艺术，十分敬佩那些有思想的工程师们，最后，代表自己，向那些伟大的工程师们致敬！&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Mar 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/journal/How-to-Communicate-With-RD/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/How-to-Communicate-With-RD/</guid>
+        
+        
+        <category>Thinking</category>
+        
+      </item>
+    
+  </channel>
+</rss>
