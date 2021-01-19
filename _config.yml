@@ -2,7 +2,7 @@
 title: AdrianHua
 email: 'huasiyao@hotmail.com'
 description: 'So?'
-url: 'http://huasiyao.com'
+url: 'http://huasiyao.github.io'
 #baseurl: '/'
 #facebook_username: ''
 #twitter_username: ''
@@ -39,8 +39,8 @@ comments :
 # Internal nav
 nav:
 #  - GALLERY: "http://127.0.0.1:4000/gallery/"
-  - JOURNAL: "http://huasiyao.com/journal/"
-  - ABOUT: "http://huasiyao.com/about/"
+  - JOURNAL: "http://huasiyao.github.io/journal/"
+  - ABOUT: "http://huasiyao.github.io/about/"
 
 # All translation keys
 translations:
